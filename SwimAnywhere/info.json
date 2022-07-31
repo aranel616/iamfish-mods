@@ -1,0 +1,8 @@
+{
+  "Id": "SwimAnywhere",
+  "DisplayName": "Swim Anywhere",
+  "Author": "Aranel616",
+  "Version": "1.0.0",
+  "AssemblyName": "SwimAnywhere.dll",
+  "EntryMethod": "SwimAnywhere.Main.Load"
+}
