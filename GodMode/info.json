@@ -1,8 +1,8 @@
 {
-  "Id": "GodMode",
-  "DisplayName": "God Mode",
+  "Id": "SwimAnywhere",
+  "DisplayName": "Swim Anywhere",
   "Author": "Aranel616",
   "Version": "1.0.0",
-  "AssemblyName": "GodeMode.dll",
-  "EntryMethod": "GodMode.Main.Load"
+  "AssemblyName": "SwimAnywhere.dll",
+  "EntryMethod": "SwimAnywhere.Main.Load"
 }

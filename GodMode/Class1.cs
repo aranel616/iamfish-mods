@@ -32,17 +32,19 @@ namespace GodMode {
         public static void ToggleGodMode()
         {
             godMode = !godMode;
+            Debug.Log("Setting god mode to " + godMode.ToString());
         }
     }
 
     [HarmonyPatch(typeof(FishSuffocation), "Update")]
-    static class FishSuffocationUpdatePatch {
+    static class FishSuffocationGodModePatch
+    {
         static bool Prefix()
         {
             if (!Main.enabled)
                 return true;
 
-            if (Input.GetKeyDown(KeyCode.F1))
+            if (Input.GetKeyDown(KeyCode.F3))
                 Main.ToggleGodMode();
 
             if (Main.godMode)
