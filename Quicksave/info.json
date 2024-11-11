@@ -1,0 +1,8 @@
+{
+  "Id": "Quicksave",
+  "DisplayName": "Quicksave",
+  "Author": "Aranel616",
+  "Version": "1.0.0",
+  "AssemblyName": "Quicksave.dll",
+  "EntryMethod": "Quicksave.Main.Load"
+}

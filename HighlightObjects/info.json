@@ -1,0 +1,8 @@
+{
+  "Id": "HighlightObjects",
+  "DisplayName": "Highlight Objects",
+  "Author": "Aranel616",
+  "Version": "1.0.0",
+  "AssemblyName": "HighlightObjects.dll",
+  "EntryMethod": "HighlightObjects.Main.Load"
+}
