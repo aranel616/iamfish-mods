@@ -1,8 +1,0 @@
-{
-  "Id": "ModTools",
-  "DisplayName": "Mod Tools",
-  "Author": "Aranel616",
-  "Version": "1.0.0",
-  "AssemblyName": "ModTools.dll",
-  "EntryMethod": "ModTools.Main.Load"
-}
